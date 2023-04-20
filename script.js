@@ -39,3 +39,17 @@ function squareNumber2(c) {
 }
 console.log(squareNumber2(6))
 
+// Задание № 4
+
+function age () {
+    let year = Number(prompt('Сколько тебе лет?'));
+    if (year < 0|| isNaN(year)) {
+    alert('Вы ввели неправильное число');
+} else if (year >= 0 && year <= 12) {
+    alert('Привет, Друг!');
+} else {
+    alert('Добро пожаловать на сайт!')
+}
+}
+age();
+
