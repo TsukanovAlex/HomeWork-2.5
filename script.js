@@ -53,3 +53,13 @@ function age () {
 }
 age();
 
+// Задание № 5 
+
+function mult (a, b) {
+    if (isNaN(a) || isNaN(b)) {
+    return 'Одно или оба значения не являются числом';
+    } else {   
+    return (a * b)
+}
+}
+console.log(mult(4, 10));
