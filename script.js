@@ -16,3 +16,12 @@ function minNumber(a, b) {
 
 }
 console.log(minNumber(2, 13));
+
+// Задание № 2
+
+
+function evenNotEven (n) {
+    return (n % 2 == 0)? ('Число четное') : ('Число нечетное')
+}
+
+console.log (evenNotEven(20));
