@@ -25,3 +25,17 @@ function evenNotEven (n) {
 }
 
 console.log (evenNotEven(20));
+
+// Задание № 3.1
+ function squareNumber1(c) {
+    console.log (c ** 2);   
+ }
+squareNumber1(2);
+
+// Задание № 3.2
+
+function squareNumber2(c) {
+    return (c ** 2);   
+}
+console.log(squareNumber2(6))
+
