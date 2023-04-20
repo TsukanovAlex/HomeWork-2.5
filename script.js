@@ -63,3 +63,15 @@ function mult (a, b) {
 }
 }
 console.log(mult(4, 10));
+
+// Задание № 6
+
+function cube () {
+    let num = Number(prompt('Напиши число от 1 до 10'));
+    if (isNaN(num)){
+        alert ('Переданный параметр не является числом');
+    } else {
+        return (`${num} в кубе равняется ${num **3}`)
+    }
+}
+console.log(cube())
