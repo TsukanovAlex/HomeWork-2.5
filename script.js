@@ -75,3 +75,27 @@ function cube () {
     }
 }
 console.log(cube())
+
+// Задание № 7
+
+function getArea() {
+    return this.radius**2 * Math.PI
+}
+function getPerimetr() {
+    return this.radius * Math.PI *2
+}
+const circle1 = {
+    radius: 5,
+    area: getArea,
+    perimetr: getPerimetr, 
+}
+const circle2 = {
+    radius: 10,
+    area: getArea,
+    perimetr: getPerimetr, 
+}
+
+console.log(circle1.area());
+console.log(circle1.perimetr());
+console.log(circle2.area());
+console.log(circle2.perimetr());
